@@ -1,9 +1,7 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { Container } from './styles';
 
-// import styles from './styles';
-
-const Welcome = () => <View style={{ flex: 1, backgroundColor: '#D9D919' }} />;
+const Welcome = () => <Container />;
 
 export default Welcome;
